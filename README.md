@@ -14,8 +14,8 @@ http://localhost:8888/pwd/24?count=8&sl=1&dl=1&sc=1
 
 ### Ausprägungen
 
-*   /Anzahl der zu erzeugenden Passwörter
-*   count = Anzahl der zu erzeugenden Passwörter
-*   sl = Groß -und Kleinbuchstaben
-*   dl = Zahlen
-*   sc = Sonderzeichen
+* /Anzahl der zu erzeugenden Passwörter
+* count = Anzahl der zu erzeugenden Passwörter
+* sl = Groß -und Kleinbuchstaben
+* dl = Zahlen
+* sc = Sonderzeichen
