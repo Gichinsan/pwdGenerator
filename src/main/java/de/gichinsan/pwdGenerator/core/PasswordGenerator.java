@@ -21,22 +21,23 @@ package de.gichinsan.pwdGenerator.core;
 public class PasswordGenerator {
 
     /**
-     *
+     * Constructs an instance of the PasswordGenerator class.
      */
     public PasswordGenerator() {
     }
 
 
     /**
+     * Generates a password based on the given parameters.
      *
-     * @param slFlag - smallLetters
-     * @param scFlag - special characters
-     * @param dFlag - digits
-     * @param minlenght min length of the password
-     * @return Password as String
+     * @param slFlag - smallLetters (1 for enabled, 0 for disabled)
+     * @param scFlag - special characters (1 for enabled, 0 for disabled)
+     * @param dFlag  - digits (1 for enabled, 0 for disabled)
+     * @param minlenght the minimum length of the password
+     * @return the generated password as a String
      */
     public String passwordGenerator(int slFlag, int scFlag, int dFlag,
-                                           int minlenght) {
+                                    int minlenght) {
         int iNumber;
         String simplePwd[] = {"A", "B", "C", "D", "E", "F", "G", "H", "I",
                 "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U",
